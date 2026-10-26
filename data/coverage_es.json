@@ -1,0 +1,1419 @@
+{
+ "country": "ES",
+ "verified_as_of": "2026-10",
+ "ranking_basis": "INE padrón aprox., 50 municipios más poblados",
+ "deep_links_note": "Ninguna app documenta deep link público; campo vacío.",
+ "cities": [
+  {
+   "rank": 1,
+   "id": "es01",
+   "city": "Madrid",
+   "province": "Madrid",
+   "lat": 40.4168,
+   "lng": -3.7038,
+   "scheme": "SER",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "ParkingLibre",
+     "website": "https://www.parkinglibre.com",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=net.smarturban.smartpark",
+     "deep_link": ""
+    },
+    {
+     "name": "Parclick",
+     "website": "https://parclick.es",
+     "ios": "",
+     "android": "",
+     "deep_link": ""
+    },
+    {
+     "name": "Bip&Drive",
+     "website": "https://www.bipdrive.com",
+     "ios": "",
+     "android": "",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Circulacion-y-aparcamiento/Parquimetros/?vgnextoid=4287fbf0a1d67410VgnVCM2000000c205a0aRCRD",
+   "tariff": null,
+   "source_url": "https://www.madrid.es/portales/munimadrid/es/Servicio-de-Estacionamiento-Regulado-SER-Parquimetros-y-aplicaciones-de-pago-por-movil/?vgnextoid=6a19e4ce78dd6410VgnVCM1000000b205a0aRCRD",
+   "confidence": "verified",
+   "notes": "Tarifa variable según distintivo ambiental y ocupación: sin estimación. Habilitación abierta a nuevas apps (pagomovilser@madmovilidad.es)."
+  },
+  {
+   "rank": 2,
+   "id": "es02",
+   "city": "Barcelona",
+   "province": "Barcelona",
+   "lat": 41.3874,
+   "lng": 2.1686,
+   "scheme": "AREA (àrea blava / verda)",
+   "operator": "Barcelona de Serveis Municipals (BSM)",
+   "apps": [
+    {
+     "name": "SMOU",
+     "website": "https://www.smou.cat",
+     "ios": "https://apps.apple.com/es/app/smou-servicios-de-movilidad/id1439898721",
+     "android": "https://play.google.com/store/apps/details?id=cat.bcn.smoubcn",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://areaverda.cat/es",
+   "tariff": null,
+   "source_url": "https://areaverda.cat/es/apps",
+   "confidence": "verified",
+   "notes": "SMOU es la app municipal."
+  },
+  {
+   "rank": 3,
+   "id": "es03",
+   "city": "Valencia",
+   "province": "Valencia",
+   "lat": 39.4699,
+   "lng": -0.3763,
+   "scheme": "ORA (zona azul / naranja)",
+   "operator": "EYSA",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.valencia.es/-/nueva-ora",
+   "confidence": "verified",
+   "notes": "Página municipal de 2021: ElParking (app del operador) y Telpark seguía operativa; confirmar vigencia de Telpark."
+  },
+  {
+   "rank": 4,
+   "id": "es04",
+   "city": "Sevilla",
+   "province": "Sevilla",
+   "lat": 37.3891,
+   "lng": -5.9845,
+   "scheme": "Zona azul / verde / MAR",
+   "operator": "AUSSA",
+   "apps": [
+    {
+     "name": "Apparkya",
+     "website": "https://apparkya.com",
+     "ios": "https://apps.apple.com/es/app/apparkya/id1343337104",
+     "android": "https://play.google.com/store/apps/details?id=com.parkinglibre.apparcaya",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.sevilla.org/servicios/agencia-tributaria-de-sevilla/ordenanzas-fiscales/2024/tasa_estacionamiento_de_vehxculosxzona_azul-aussax.pdf",
+   "tariff": null,
+   "source_url": "https://apparkya.com/estacionamiento-regulado/sevilla",
+   "confidence": "partial",
+   "notes": "sevilla.org no accesible (504); app solo confirmada en web del operador."
+  },
+  {
+   "rank": 5,
+   "id": "es05",
+   "city": "Zaragoza",
+   "province": "Zaragoza",
+   "lat": 41.6488,
+   "lng": -0.8891,
+   "scheme": "ESRO (azul) / ESRE (naranja)",
+   "operator": "Z+M UTE",
+   "apps": [
+    {
+     "name": "Zaragoza ApParca",
+     "website": "https://www.zmute.es/apparca/",
+     "ios": "https://apps.apple.com/es/app/zaragoza-apparca/id893969100",
+     "android": "https://play.google.com/store/apps/details?id=es.zaragoza.apparca",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.zmute.es/zonas-reguladas/esre-esro",
+   "tariff": null,
+   "source_url": "https://www.zmute.es/apparca/",
+   "confidence": "verified",
+   "notes": "App oficial Ayuntamiento + Z+M UTE."
+  },
+  {
+   "rank": 6,
+   "id": "es06",
+   "city": "Málaga",
+   "province": "Málaga",
+   "lat": 36.7213,
+   "lng": -4.4214,
+   "scheme": "SARE (zona azul)",
+   "operator": "SMASSA (sociedad municipal)",
+   "apps": [
+    {
+     "name": "Aparcamientos Málaga SMASSA",
+     "website": "https://smassa.eu/app.php",
+     "ios": "https://apps.apple.com/es/app/aparcamientos-m%C3%A1laga-smassa/id512483604",
+     "android": "https://play.google.com/store/apps/details?id=smassa.aparcamientosmalaga",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://smassa.eu/app.php",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 7,
+   "id": "es07",
+   "city": "Murcia",
+   "province": "Murcia",
+   "lat": 37.9922,
+   "lng": -1.1307,
+   "scheme": "SER (zona azul / verde / naranja)",
+   "operator": "Urbamusa (marca Aparcamurcia)",
+   "apps": [
+    {
+     "name": "Aparcamurcia",
+     "website": "https://aparcamurcia.com",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=com.aparcamurcia.app",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://aparcamurcia.com/",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 8,
+   "id": "es08",
+   "city": "Palma",
+   "province": "Illes Balears",
+   "lat": 39.5696,
+   "lng": 2.6502,
+   "scheme": "ORA",
+   "operator": "Servicio municipalizado (SMAP)",
+   "apps": [
+    {
+     "name": "mobiAPParc",
+     "website": "https://mobipalma.mobi/mobilitat/estacionament/ora/",
+     "ios": "https://apps.apple.com/es/app/mobiapparc/id1468069179",
+     "android": "https://play.google.com/store/apps/details?id=com.aparcarapp.mallorca",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://mobipalma.mobi/mobilitat/estacionament/ora/",
+   "tariff": {
+    "label": "Zona 1 (Interior Avenidas y Cala Major)",
+    "tiers": [
+     [
+      30,
+      0.85
+     ],
+     [
+      60,
+      1.45
+     ],
+     [
+      120,
+      2.65
+     ]
+    ]
+   },
+   "source_url": "https://mobipalma.mobi/mobilitat/estacionament/ora/",
+   "confidence": "verified",
+   "notes": "Otras zonas tienen tarifas menores. Ampliación ORA desde 01/01/2027."
+  },
+  {
+   "rank": 9,
+   "id": "es09",
+   "city": "Las Palmas de Gran Canaria",
+   "province": "Las Palmas",
+   "lat": 28.1235,
+   "lng": -15.4363,
+   "scheme": "Zona azul / verde",
+   "operator": "SAGULPA (sociedad municipal)",
+   "apps": [
+    {
+     "name": "LPA Park",
+     "website": "https://www.sagulpa.com/aplicaciones",
+     "ios": "https://apps.apple.com/es/app/lpa-park/id689988176",
+     "android": "https://play.google.com/store/apps/details?id=com.inventiaplus.lpapark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.sagulpa.com/aplicaciones",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 10,
+   "id": "es10",
+   "city": "Bilbao",
+   "province": "Bizkaia",
+   "lat": 43.263,
+   "lng": -2.935,
+   "scheme": "OTA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "BilbaoPark (OTA oficial)",
+     "website": "https://www.bilbao.eus",
+     "ios": "https://apps.apple.com/es/app/bilbao-ota-app-oficial/id1228172103",
+     "android": "https://play.google.com/store/apps/details?id=eus.bilbao.bilbaopark",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.bilbao.eus/cs/Satellite?c=Page&language=es&pageid=1279229424504&pagename=Bilbaonet%2FPage%2FBIO_contenidoFinal",
+   "tariff": null,
+   "source_url": "https://www.bilbao.eus/cs/Satellite?c=Page&language=es&pageid=1279229424504&pagename=Bilbaonet%2FPage%2FBIO_contenidoFinal",
+   "confidence": "partial",
+   "notes": "bilbao.eus no respondió al abrirla; BilbaoPark confirmada en tiendas (desarrollador municipal)."
+  },
+  {
+   "rank": 11,
+   "id": "es11",
+   "city": "Alicante",
+   "province": "Alicante",
+   "lat": 38.3452,
+   "lng": -0.481,
+   "scheme": "ORA (zona azul / naranja)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Moviltik",
+     "website": "https://www.moviltik.es",
+     "ios": "https://apps.apple.com/es/app/moviltik/id1202843622",
+     "android": "https://play.google.com/store/apps/details?id=com.moviltik.app",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.alicante.es/es/noticias/app-moviltik-permite-pagar-ora-movil",
+   "confidence": "verified",
+   "notes": "Noticia municipal (>2 años). Operador no confirmado en fuente oficial."
+  },
+  {
+   "rank": 12,
+   "id": "es12",
+   "city": "Córdoba",
+   "province": "Córdoba",
+   "lat": 37.8882,
+   "lng": -4.7794,
+   "scheme": "Zona azul",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.cordoba.es/servicios/movilidad-y-transporte/movilidad/normativas-de-referencia",
+   "tariff": null,
+   "source_url": "https://www.diariocordoba.com/cordoba-ciudad/2022/04/01/empresa-madrid-gestionara-zonas-parking-64537732.html",
+   "confidence": "partial",
+   "notes": "Prensa: concesión a EYSA (2022). Ninguna página municipal nombra app. Tarifa: O.F. 407."
+  },
+  {
+   "rank": 13,
+   "id": "es13",
+   "city": "Valladolid",
+   "province": "Valladolid",
+   "lat": 41.6523,
+   "lng": -4.7245,
+   "scheme": "ORA",
+   "operator": "Dornier",
+   "apps": [
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://valladolidora.com/formas-de-pago/",
+   "tariff": null,
+   "source_url": "https://www.valladolid.es/es/actualidad/noticias/app-telpark-permite-pagar-ora-valladolid-tiempo-exacto-esta",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 14,
+   "id": "es14",
+   "city": "Vigo",
+   "province": "Pontevedra",
+   "lat": 42.2406,
+   "lng": -8.7207,
+   "scheme": "XER / ORA (zona azul)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://xervigo.com/telpark/",
+   "tariff": {
+    "label": "Zona azul",
+    "tiers": [
+     [
+      33,
+      0.3
+     ],
+     [
+      62,
+      0.6
+     ],
+     [
+      90,
+      1.0
+     ],
+     [
+      120,
+      1.45
+     ]
+    ]
+   },
+   "source_url": "https://xervigo.com/telpark/",
+   "confidence": "verified",
+   "notes": "Fuente: web del servicio XER Vigo."
+  },
+  {
+   "rank": 15,
+   "id": "es15",
+   "city": "Gijón",
+   "province": "Asturias",
+   "lat": 43.5322,
+   "lng": -5.6611,
+   "scheme": "ORA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    },
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.europapress.es/asturias/noticia-conductores-gijon-ya-tienen-muy-facil-pagar-zona-ora-app-mowiz-20250318122801.html",
+   "confidence": "partial",
+   "notes": "gijon.es no carga sin JS; solo prensa."
+  },
+  {
+   "rank": 16,
+   "id": "es16",
+   "city": "L'Hospitalet de Llobregat",
+   "province": "Barcelona",
+   "lat": 41.3596,
+   "lng": 2.0997,
+   "scheme": "Zona blava / verda",
+   "operator": "",
+   "apps": [
+    {
+     "name": "SMOU",
+     "website": "https://www.smou.cat",
+     "ios": "https://apps.apple.com/es/app/smou-servicios-de-movilidad/id1439898721",
+     "android": "https://play.google.com/store/apps/details?id=cat.bcn.smoubcn",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.smou.cat/en/parquimetre",
+   "confidence": "verified",
+   "notes": "Según lista de municipios de SMOU (BSM)."
+  },
+  {
+   "rank": 17,
+   "id": "es17",
+   "city": "Vitoria-Gasteiz",
+   "province": "Álava",
+   "lat": 42.8467,
+   "lng": -2.6716,
+   "scheme": "OTA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=_322669dd_12392bd72e2__7fd0",
+   "tariff": null,
+   "source_url": "https://www.vitoria-gasteiz.org/wb021/was/contenidoAction.do?idioma=es&uid=_322669dd_12392bd72e2__7fd0",
+   "confidence": "verified",
+   "notes": "Tarifas por minuto en Ordenanzas Fiscales (7.6). ElParking sin comisión; resto con comisión."
+  },
+  {
+   "rank": 18,
+   "id": "es18",
+   "city": "A Coruña",
+   "province": "A Coruña",
+   "lat": 43.3623,
+   "lng": -8.4115,
+   "scheme": "ORA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.coruna.gal/movilidad/es/medios-de-transporte/coche/estacionamiento/zona-ora?argIdioma=es",
+   "tariff": null,
+   "source_url": "https://www.coruna.gal/web/es/comunicate/aplicaciones-para-moviles?argIdioma=es",
+   "confidence": "verified",
+   "notes": "EasyPark listada en apps del Concello. Operador (Setex Aparki) solo en prensa."
+  },
+  {
+   "rank": 19,
+   "id": "es19",
+   "city": "Elche",
+   "province": "Alicante",
+   "lat": 38.2699,
+   "lng": -0.6983,
+   "scheme": "ORA",
+   "operator": "PIMESA (sociedad municipal)",
+   "apps": [
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "Presto Parking",
+     "website": "https://www.prestoparking.com",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=presto.park",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.elche.es/2020/09/la-zona-ora-ya-se-puede-pagar-con-el-movil-a-traves-de-las-aplicaciones-easypark-y-presto-parking/",
+   "confidence": "verified",
+   "notes": "Nota municipal 2020; se autorizaron más apps sin nombrar."
+  },
+  {
+   "rank": 20,
+   "id": "es20",
+   "city": "Granada",
+   "province": "Granada",
+   "lat": 37.1773,
+   "lng": -3.5986,
+   "scheme": "ORA (zona azul / verde / roja)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "Imbric",
+     "website": "",
+     "ios": "",
+     "android": "",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "http://www.movilidadgranada.com/par_ora.php",
+   "tariff": {
+    "label": "Vías azules (no residentes)",
+    "tiers": [
+     [
+      30,
+      0.55
+     ],
+     [
+      60,
+      0.9
+     ],
+     [
+      120,
+      1.8
+     ]
+    ]
+   },
+   "source_url": "http://www.movilidadgranada.com/par_ora.php",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 21,
+   "id": "es21",
+   "city": "Terrassa",
+   "province": "Barcelona",
+   "lat": 41.5633,
+   "lng": 2.0089,
+   "scheme": "Zona blava",
+   "operator": "Egarvia (municipal)",
+   "apps": [
+    {
+     "name": "Blinkay",
+     "website": "https://www.blinkay.app/es/",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=com.integrapark.iparkmerel",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://egarvia.terrassa.cat/zona-blava",
+   "tariff": null,
+   "source_url": "https://egarvia.terrassa.cat/zona-blava",
+   "confidence": "verified",
+   "notes": "Tarifas por zona en el mapa."
+  },
+  {
+   "rank": 22,
+   "id": "es22",
+   "city": "Badalona",
+   "province": "Barcelona",
+   "lat": 41.45,
+   "lng": 2.2474,
+   "scheme": "Zona blava / verda",
+   "operator": "",
+   "apps": [
+    {
+     "name": "SMOU",
+     "website": "https://www.smou.cat",
+     "ios": "https://apps.apple.com/es/app/smou-servicios-de-movilidad/id1439898721",
+     "android": "https://play.google.com/store/apps/details?id=cat.bcn.smoubcn",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.smou.cat/en/parquimetre",
+   "confidence": "verified",
+   "notes": "Según lista de municipios de SMOU (BSM)."
+  },
+  {
+   "rank": 23,
+   "id": "es23",
+   "city": "Sabadell",
+   "province": "Barcelona",
+   "lat": 41.5463,
+   "lng": 2.1086,
+   "scheme": "Zona blava",
+   "operator": "Vimusa",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.sabadell.cat/ca/on-estacionar/zona-blava",
+   "tariff": null,
+   "source_url": "https://www.sabadell.cat/ca/on-estacionar/zona-blava",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 24,
+   "id": "es24",
+   "city": "Oviedo",
+   "province": "Asturias",
+   "lat": 43.3614,
+   "lng": -5.8494,
+   "scheme": "Zona azul / verde",
+   "operator": "EYSA",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.oviedo.es/zonazul",
+   "confidence": "partial",
+   "notes": "Operador en web municipal; app ElParking solo en prensa (2016)."
+  },
+  {
+   "rank": 25,
+   "id": "es25",
+   "city": "Cartagena",
+   "province": "Murcia",
+   "lat": 37.6257,
+   "lng": -0.9966,
+   "scheme": "ORA (zona azul / verde)",
+   "operator": "EYSA",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://ora.cartagena.es/zona_estacionamiento.asp",
+   "tariff": null,
+   "source_url": "https://www.cartagena.es/detalle_noticias.asp?id=85054",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 26,
+   "id": "es26",
+   "city": "Móstoles",
+   "province": "Madrid",
+   "lat": 40.3223,
+   "lng": -3.8649,
+   "scheme": "",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "",
+   "confidence": "unverified",
+   "notes": "Sin fuente oficial sobre zona regulada/app."
+  },
+  {
+   "rank": 27,
+   "id": "es27",
+   "city": "Jerez de la Frontera",
+   "province": "Cádiz",
+   "lat": 36.685,
+   "lng": -6.1261,
+   "scheme": "O.R.A. (azul / naranja / verde)",
+   "operator": "SETEX APARKI",
+   "apps": [],
+   "tariff_url": "https://www.jerez.es/webs-municipales/movilidad/tramites/ora",
+   "tariff": null,
+   "source_url": "https://www.jerez.es/webs-municipales/movilidad/tramites/ora",
+   "confidence": "partial",
+   "notes": "Tarifa oficial publicada; la web municipal no nombra app vigente (solo PDF antiguo de e-park)."
+  },
+  {
+   "rank": 28,
+   "id": "es28",
+   "city": "Santa Cruz de Tenerife",
+   "province": "S.C. Tenerife",
+   "lat": 28.4636,
+   "lng": -16.2518,
+   "scheme": "Zona azul / verde (prevista)",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://efe.com/canarias/2025-01-15/santa-cruz-aplicara-en-2026-la-zona-azul-y-verde-de-pago-y-creara-1800-aparcamientos-extra/",
+   "confidence": "partial",
+   "notes": "Sin app oficial de pago aún."
+  },
+  {
+   "rank": 29,
+   "id": "es29",
+   "city": "Pamplona",
+   "province": "Navarra",
+   "lat": 42.8125,
+   "lng": -1.6458,
+   "scheme": "Zona azul / naranja / roja / verde",
+   "operator": "Dornier",
+   "apps": [
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.pamplona.es/temas/seguridad-ciudadana-y-convivencia/aparcamientos/zonas-de-estacionamiento-regulado",
+   "tariff": null,
+   "source_url": "https://www.pamplona.es/temas/seguridad-ciudadana-y-convivencia/aparcamientos/zonas-de-estacionamiento-regulado",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 30,
+   "id": "es30",
+   "city": "Almería",
+   "province": "Almería",
+   "lat": 36.834,
+   "lng": -2.4637,
+   "scheme": "ROA (zona azul / verde)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://roaalmeria.com/telpark/",
+   "confidence": "verified",
+   "notes": "Fuente: web del servicio ROA Almería."
+  },
+  {
+   "rank": 31,
+   "id": "es31",
+   "city": "Alcalá de Henares",
+   "province": "Madrid",
+   "lat": 40.4818,
+   "lng": -3.3643,
+   "scheme": "ORA",
+   "operator": "EYSA",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://zonaazulalcala.es/pago-con-app",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 32,
+   "id": "es32",
+   "city": "Fuenlabrada",
+   "province": "Madrid",
+   "lat": 40.2842,
+   "lng": -3.7942,
+   "scheme": "",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://noticiasparamunicipios.com/municipios-madrid/fuenlabrada-el-centro-de-la-ciudad-no-tendra-zona-azul-con-parquimetros/",
+   "confidence": "unverified",
+   "notes": "Prensa: sin zona azul en el centro; sin confirmación oficial."
+  },
+  {
+   "rank": 33,
+   "id": "es33",
+   "city": "Leganés",
+   "province": "Madrid",
+   "lat": 40.3272,
+   "lng": -3.7635,
+   "scheme": "",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "",
+   "confidence": "unverified",
+   "notes": "Sin fuente oficial."
+  },
+  {
+   "rank": 34,
+   "id": "es34",
+   "city": "Donostia-San Sebastián",
+   "province": "Gipuzkoa",
+   "lat": 43.3183,
+   "lng": -1.9812,
+   "scheme": "OTA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.donostia.eus/info/ciudadano/t_ota.nsf/vowebContenidosId/NT000009AA?OpenDocument=&doc=D&id=A434305445201&idioma=cas",
+   "confidence": "partial",
+   "notes": "La página municipal abierta hoy solo muestra el mapa OTA; app no confirmada en ella."
+  },
+  {
+   "rank": 35,
+   "id": "es35",
+   "city": "Getafe",
+   "province": "Madrid",
+   "lat": 40.3083,
+   "lng": -3.7327,
+   "scheme": "",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "",
+   "confidence": "unverified",
+   "notes": "Sin fuente oficial."
+  },
+  {
+   "rank": 36,
+   "id": "es36",
+   "city": "Burgos",
+   "province": "Burgos",
+   "lat": 42.3439,
+   "lng": -3.6969,
+   "scheme": "ORA (azul / naranja)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://oraburgos.es/funcionamiento",
+   "tariff": null,
+   "source_url": "https://oraburgos.es/pago-con-app",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 37,
+   "id": "es37",
+   "city": "Castellón de la Plana",
+   "province": "Castellón",
+   "lat": 39.9864,
+   "lng": -0.0513,
+   "scheme": "Zona azul / verde",
+   "operator": "Jujosa",
+   "apps": [
+    {
+     "name": "Oracar",
+     "website": "https://www.oracar.es",
+     "ios": "https://apps.apple.com/es/app/oracar/id1100194553",
+     "android": "https://play.google.com/store/apps/details?id=com.proconsi.oracarapp",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://castellonaldia.elmundo.es/castellon/usuarios-de-la-zona-azul-de-castellon-reciben-multas-por-errores-en-la-aplicacion-aparcamiento-PI24970258",
+   "confidence": "partial",
+   "notes": "Solo prensa; EasyPark también citado (2022)."
+  },
+  {
+   "rank": 38,
+   "id": "es38",
+   "city": "Santander",
+   "province": "Cantabria",
+   "lat": 43.4623,
+   "lng": -3.81,
+   "scheme": "OLA",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Telpark",
+     "website": "https://www.telpark.com",
+     "ios": "https://apps.apple.com/es/app/telpark/id658204860",
+     "android": "https://play.google.com/store/apps/details?id=com.delaware.empark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://ola-santander.com/formas-de-pago/",
+   "confidence": "verified",
+   "notes": "Fuente: web del servicio OLA Santander."
+  },
+  {
+   "rank": 39,
+   "id": "es39",
+   "city": "Albacete",
+   "province": "Albacete",
+   "lat": 38.9943,
+   "lng": -1.8585,
+   "scheme": "ORA (zona azul)",
+   "operator": "EMISALBA (municipal)",
+   "apps": [
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    },
+    {
+     "name": "MyPango",
+     "website": "https://www.mypango.com",
+     "ios": "",
+     "android": "",
+     "deep_link": ""
+    },
+    {
+     "name": "Moviltik",
+     "website": "https://www.moviltik.es",
+     "ios": "https://apps.apple.com/es/app/moviltik/id1202843622",
+     "android": "https://play.google.com/store/apps/details?id=com.moviltik.app",
+     "deep_link": ""
+    },
+    {
+     "name": "Presto Parking",
+     "website": "https://www.prestoparking.com",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=presto.park",
+     "deep_link": ""
+    },
+    {
+     "name": "ParkingLibre",
+     "website": "https://www.parkinglibre.com",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=net.smarturban.smartpark",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://emisalba.es/inicio/estacionamiento-regulado/pago-movil/",
+   "confidence": "verified",
+   "notes": "Telpark no aparece en la página de EMISALBA abierta hoy."
+  },
+  {
+   "rank": 40,
+   "id": "es40",
+   "city": "Alcorcón",
+   "province": "Madrid",
+   "lat": 40.3458,
+   "lng": -3.8249,
+   "scheme": "Sin zona regulada conocida",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.ayto-alcorcon.es/es/servicios/movilidad/aparco-el-coche",
+   "confidence": "partial",
+   "notes": "Web municipal solo cita aparcamientos gratuitos."
+  },
+  {
+   "rank": 41,
+   "id": "es41",
+   "city": "San Cristóbal de La Laguna",
+   "province": "S.C. Tenerife",
+   "lat": 28.4874,
+   "lng": -16.3159,
+   "scheme": "ZEL (estacionamiento limitado)",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "https://www.aytolalaguna.es/ayuntamiento/normativas-municipales/Ordenanza-relativa-a-la-regulacion-de-parada-estacionamiento-reservas-de-estacionamiento-y-zonas-de-estacionamiento-limitados",
+   "tariff": null,
+   "source_url": "",
+   "confidence": "unverified",
+   "notes": "App 'ZEL Ayto La Laguna' citada en prensa, no verificada."
+  },
+  {
+   "rank": 42,
+   "id": "es42",
+   "city": "Logroño",
+   "province": "La Rioja",
+   "lat": 42.4627,
+   "lng": -2.445,
+   "scheme": "ORA (zona azul)",
+   "operator": "EYSA",
+   "apps": [
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    },
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://oralogrono.org/pago-movil/",
+   "confidence": "verified",
+   "notes": "Telpark no figura en la lista del servicio."
+  },
+  {
+   "rank": 43,
+   "id": "es43",
+   "city": "Badajoz",
+   "province": "Badajoz",
+   "lat": 38.8794,
+   "lng": -6.9707,
+   "scheme": "Sin zona azul",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.cope.es/emisoras/extremadura/badajoz-provincia/badajoz/noticias/badajoz-unica-capital-extremena-zona-azul-20250728_3191860.html",
+   "confidence": "partial",
+   "notes": ""
+  },
+  {
+   "rank": 44,
+   "id": "es44",
+   "city": "Marbella",
+   "province": "Málaga",
+   "lat": 36.5101,
+   "lng": -4.8825,
+   "scheme": "Zona azul / verde",
+   "operator": "",
+   "apps": [
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://turismo.marbella.es/descubre/aparcamiento/aparcamientos-zona-azul-y-verde-marbella.html",
+   "tariff": {
+    "label": "Zona azul",
+    "tiers": [
+     [
+      29,
+      0.3
+     ],
+     [
+      60,
+      0.72
+     ],
+     [
+      120,
+      1.5
+     ]
+    ]
+   },
+   "source_url": "https://turismo.marbella.es/descubre/aparcamiento/aparcamientos-zona-azul-y-verde-marbella.html",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 45,
+   "id": "es45",
+   "city": "Salamanca",
+   "province": "Salamanca",
+   "lat": 40.9701,
+   "lng": -5.6635,
+   "scheme": "ORA (zona azul / verde)",
+   "operator": "",
+   "apps": [
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    },
+    {
+     "name": "Mowiz",
+     "website": "https://www.mowiz.com",
+     "ios": "https://apps.apple.com/es/app/id6446278726",
+     "android": "https://play.google.com/store/apps/details?id=com.mowiz.android",
+     "deep_link": ""
+    },
+    {
+     "name": "EasyPark",
+     "website": "https://www.easypark.com/es-es",
+     "ios": "https://apps.apple.com/es/app/easypark-app-del-parking/id449594317",
+     "android": "https://play.google.com/store/apps/details?id=net.easypark.android",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://orasalamanca.es/funcionamiento",
+   "tariff": null,
+   "source_url": "https://orasalamanca.es/funcionamiento",
+   "confidence": "verified",
+   "notes": ""
+  },
+  {
+   "rank": 46,
+   "id": "es46",
+   "city": "Huelva",
+   "province": "Huelva",
+   "lat": 37.2614,
+   "lng": -6.9447,
+   "scheme": "Zona azul",
+   "operator": "AUSSA",
+   "apps": [
+    {
+     "name": "Apparkya",
+     "website": "https://apparkya.com",
+     "ios": "https://apps.apple.com/es/app/apparkya/id1343337104",
+     "android": "https://play.google.com/store/apps/details?id=com.parkinglibre.apparcaya",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://apparkya.com/estacionamiento-regulado/huelva",
+   "confidence": "partial",
+   "notes": "Solo web del operador."
+  },
+  {
+   "rank": 47,
+   "id": "es47",
+   "city": "Lleida",
+   "province": "Lleida",
+   "lat": 41.6176,
+   "lng": 0.62,
+   "scheme": "Zona blava",
+   "operator": "",
+   "apps": [
+    {
+     "name": "Blinkay",
+     "website": "https://www.blinkay.app/es/",
+     "ios": "",
+     "android": "https://play.google.com/store/apps/details?id=com.integrapark.iparkmerel",
+     "deep_link": ""
+    },
+    {
+     "name": "ElParking",
+     "website": "https://elparking.com",
+     "ios": "https://apps.apple.com/es/app/elparking-app-para-conductores/id1120207710",
+     "android": "https://play.google.com/store/apps/details?id=com.elparking.elparking",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "https://www.paeria.cat/es/servicios/movilidad/estacionamiento-regulado/pago-de-la-zona-azul-con-movil",
+   "tariff": null,
+   "source_url": "https://www.paeria.cat/es/actualidad/noticias/blinkay-unica-aplicacion-gratuita-para-el-pago-de-la-zona-azul-a-partir-del-3-de-marzo",
+   "confidence": "verified",
+   "notes": "Blinkay única gratuita; ElParking con comisión."
+  },
+  {
+   "rank": 48,
+   "id": "es48",
+   "city": "Tarragona",
+   "province": "Tarragona",
+   "lat": 41.1189,
+   "lng": 1.2445,
+   "scheme": "Zona blava",
+   "operator": "Aparcaments Municipals de Tarragona (AMT)",
+   "apps": [
+    {
+     "name": "mot: (antes Aparcar App)",
+     "website": "https://www.appmot.cat/es/",
+     "ios": "",
+     "android": "",
+     "deep_link": ""
+    }
+   ],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.tarragona.cat/mobilitat/aparcar-a-tarragona/app-per-pagar-els-parquimetres",
+   "confidence": "verified",
+   "notes": "Web municipal cita 'Aparcar App'; su sucesora 'mot:' según appmot.cat."
+  },
+  {
+   "rank": 49,
+   "id": "es49",
+   "city": "Dos Hermanas",
+   "province": "Sevilla",
+   "lat": 37.2829,
+   "lng": -5.9209,
+   "scheme": "Sin zona azul (según prensa)",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "",
+   "tariff": null,
+   "source_url": "https://www.abc.es/sevilla/provincia/dos-hermanas/dos-hermanas-ciudad-andaluza-plazas-aparcamiento-gratis-20250609005646-nts.html",
+   "confidence": "unverified",
+   "notes": ""
+  },
+  {
+   "rank": 50,
+   "id": "es50",
+   "city": "Torrejón de Ardoz",
+   "province": "Madrid",
+   "lat": 40.4583,
+   "lng": -3.4797,
+   "scheme": "Aparcamiento limitado (entorno Parque Europa)",
+   "operator": "",
+   "apps": [],
+   "tariff_url": "https://www.ayto-torrejon.es/sites/default/files/inline-files/28%20ORDENANZA%20TASA%20DE%20APARCAMIENTO%20LIMITADO%20EN%20EL%20ENTORNO%20DEL%20PARQUE%20EUROPA%202020.pdf",
+   "tariff": null,
+   "source_url": "",
+   "confidence": "unverified",
+   "notes": "Sin app oficial encontrada."
+  }
+ ]
+}

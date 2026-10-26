@@ -13,3 +13,4 @@ input,select{width:100%;padding:.6rem;border-radius:10px;border:1px solid #333;b
 .tabs{position:fixed;bottom:0;left:0;right:0;display:flex;background:var(--sf);border-top:1px solid #333}.tabs button{flex:1;border-radius:0;background:none;color:var(--mu);padding:.9rem 0}.tabs button.on{color:var(--pr);font-weight:700}
 #toast{position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:#000c;padding:.5rem 1rem;border-radius:8px;display:none}
 .err{color:var(--er);font-size:.85rem}
+.chip.ok{background:#12301f;color:var(--ok);font-size:.75rem}.app{border-top:1px solid #333;padding:.6rem 0}.app .row{margin-top:.4rem}a.b{font-size:.9rem;padding:.45rem .9rem}.err{color:var(--er)}

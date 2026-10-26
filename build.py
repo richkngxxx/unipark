@@ -7,7 +7,7 @@ def page(path,title,desc,body):
     depth=path.count('/')
     r='../'*depth
     nav=f'''<header class="top"><a class="brand" href="{r}">🅿️ UniPark España</a><nav><a href="{r}como-funciona/">Cómo funciona</a><a href="{r}ciudades/">Ciudades</a><a href="{r}blog/">Blog</a><a href="{r}soporte/">Soporte</a><a class="btn" href="{r}app/">Abrir app</a></nav></header>'''
-    foot=f'''<footer><p>UniPark España (beta) no está afiliada a Telpark, a ningún operador de aparcamiento ni a ningún ayuntamiento. UniPark no cobra ni valida aparcamientos: el pago se hace siempre en la web o app oficial del operador. Zonas y precios mostrados son <strong>datos de ejemplo</strong>, no tarifas reales.</p><p><a href="{r}privacidad/">Privacidad</a> · <a href="{r}soporte/">Soporte</a> · <a href="{r}sitemap.xml">Sitemap</a></p></footer>'''
+    foot=f'''<footer><p>UniPark España (beta) no está afiliada a Telpark, a ningún operador de aparcamiento ni a ningún ayuntamiento. UniPark no cobra ni valida aparcamientos: el pago se hace siempre en la web o app oficial. Cobertura con datos verificados a fecha 2026-10 a partir de fuentes oficiales; las ciudades «en verificación» pueden contener datos incompletos. Solo mostramos estimaciones de precio donde hay tarifa oficial verificada.</p><p><a href="{r}privacidad/">Privacidad</a> · <a href="{r}soporte/">Soporte</a> · <a href="{r}sitemap.xml">Sitemap</a></p></footer>'''
     html=f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{title}</title><meta name="description" content="{desc}"><link rel="canonical" href="{BASE}{path}"><meta name="theme-color" content="#121418"><link rel="icon" href="{r}app/icon.svg"><link rel="stylesheet" href="{r}site.css">
 {GC}
 </head><body>{nav}<main>{body}</main>{foot}</body></html>'''
@@ -15,21 +15,28 @@ def page(path,title,desc,body):
     open(os.path.join(path,'index.html'),'w').write(html)
 
 page('','UniPark España – Aparca en toda España desde una app','UniPark te ayuda a detectar tu zona de aparcamiento, estimar el precio y abrir el operador oficial para pagar. Sin comisión en beta.','''
-<section class="hero"><h1>Aparca en cualquier ciudad de España, con una sola app</h1><p>UniPark detecta tu zona, te da una estimación del precio y te lleva a la web oficial del operador para pagar. Luego controla tu tiempo, tus tickets y tus avisos.</p><a class="btn big" href="app/">Abrir la app web</a><p class="note">Beta gratuita · 0,00 EUR de comisión · Zonas y precios de ejemplo</p></section>
+<section class="hero"><h1>Aparca en cualquier ciudad de España, con una sola app</h1><p>UniPark detecta tu zona, te muestra las apps oficiales aceptadas en tu ciudad y te lleva a la web oficial del operador para pagar. Luego controla tu tiempo, tus tickets y tus avisos.</p><a class="btn big" href="app/">Abrir la app web</a><p class="note">Beta gratuita · 0,00 EUR de comisión · 50 ciudades · datos verificados 2026-10</p></section>
 <section><h2>Cómo funciona en 3 pasos</h2><ol class="steps"><li><strong>Detecta tu zona.</strong> Con tu ubicación (o eligiéndola a mano) UniPark identifica la ciudad y zona.</li><li><strong>Elige vehículo y duración.</strong> Verás una estimación de precio orientativa.</li><li><strong>Paga en el operador oficial.</strong> Abrimos su web; tú pagas allí y confirmas en UniPark para activar el temporizador y guardar el ticket.</li></ol><p><a href="como-funciona/">Más detalles →</a></p></section>
 <section><h2>Honestidad ante todo</h2><p>UniPark no procesa pagos ni valida tu estacionamiento ante ninguna autoridad. Es un asistente que te organiza: el justificante válido es siempre el del operador oficial.</p></section>''')
 
 page('como-funciona/','Cómo funciona UniPark','El flujo puente de UniPark: zona, vehículo, duración, pago en el operador oficial y temporizador.','''
 <h1>Cómo funciona</h1>
-<h2>1. Zona</h2><p>La app usa la geolocalización de tu navegador (solo si das permiso) para encontrar la ciudad de ejemplo más cercana. Si no das permiso, la eliges manualmente.</p>
-<h2>2. Vehículo y duración</h2><p>Guarda tus matrículas (formato actual español, p. ej. 1234ABC), con apodo y color, y marca una como predeterminada. Elige la duración y verás una estimación con datos de ejemplo.</p>
-<h2>3. Pago en el operador oficial</h2><p>UniPark abre la web pública del operador (por ejemplo Telpark) en una pestaña nueva. Pagas allí. Al volver, nos dices si <em>ya has pagado</em> o <em>aún no</em>. Solo si confirmas, iniciamos el temporizador.</p>
+<h2>1. Zona</h2><p>La app usa la geolocalización de tu navegador (solo si das permiso) para encontrar la ciudad cubierta más cercana. Si no das permiso, la eliges manualmente.</p>
+<h2>2. Vehículo y duración</h2><p>Guarda tus matrículas (formato actual español, p. ej. 1234ABC), con apodo y color, y marca una como predeterminada. Elige la duración y verás una estimación solo si hay tarifa oficial verificada; si no, un enlace a las tarifas oficiales.</p>
+<h2>3. Pago en el operador oficial</h2><p>UniPark te muestra las apps de pago aceptadas oficialmente en tu ciudad (con su web, App Store y Google Play) y abre la que elijas en una pestaña nueva. Pagas allí. Al volver, nos dices si <em>ya has pagado</em> o <em>aún no</em>. Solo si confirmas, iniciamos el temporizador.</p>
 <h2>4. Sesiones, avisos e historial</h2><p>Puedes tener varias sesiones activas, ampliarlas (recuerda ampliar también en el operador) o finalizarlas. Las finalizadas pasan a tu historial de tickets. Si lo permites, te avisamos antes de que caduque mientras la app esté abierta.</p>
 <p class="note">Comisión UniPark en beta: 0,00 EUR. UniPark no está afiliada a ningún operador ni ayuntamiento.</p><p><a class="btn" href="../app/">Probar la app</a></p>''')
 
-page('ciudades/','Ciudades – cobertura de ejemplo | UniPark','Ciudades incluidas como datos de ejemplo en la beta de UniPark: Madrid, Barcelona, Sevilla, Málaga y Valencia.','''
-<h1>Ciudades</h1><p class="warn">⚠️ Cobertura de ejemplo. Estas zonas y precios son <strong>datos de ejemplo</strong> para la beta, no tarifas reales ni cobertura oficial. Consulta siempre la señalización y el operador oficial.</p>
-<ul class="cards"><li><h3>Madrid</h3><p>Zona SER (ejemplo)</p></li><li><h3>Barcelona</h3><p>Àrea Verda/Blava (ejemplo)</p></li><li><h3>Sevilla</h3><p>Zona azul (ejemplo)</p></li><li><h3>Málaga</h3><p>Zona azul (ejemplo)</p></li><li><h3>Valencia</h3><p>ORA (ejemplo)</p></li></ul>''')
+import json,html as H
+_D=json.load(open('data/coverage_es.json'))
+def _city(c):
+    e=H.escape
+    apps=', '.join(e(a['name']) for a in c['apps']) or 'Sin app oficial confirmada'
+    links=' · '.join(x for x in [f'<a href="{e(c["source_url"])}" rel="noopener">Fuente</a>' if c['source_url'] else '', f'<a href="{e(c["tariff_url"])}" rel="noopener">Tarifas oficiales</a>' if c['tariff_url'] else ''] if x)
+    return f'<li><h3>{e(c["city"])}</h3><p>{e(c["scheme"] or "Sistema no confirmado")}{" · "+e(c["operator"]) if c["operator"] else ""}</p><p class="note">Apps: {apps}</p><p class="note">{links}</p></li>'
+_G=[('verified','Verificadas','Datos comprobados en la web del ayuntamiento o del servicio municipal de aparcamiento.'),('partial','En verificación (datos parciales)','Parte de los datos procede de prensa o del operador; pendiente de confirmar en fuente oficial.'),('unverified','En verificación (sin confirmar)','No hemos encontrado fuente oficial; puede que no exista zona regulada.')]
+_body='<h1>Ciudades</h1><p class="note">Datos verificados a fecha 2026-10. 50 municipios más poblados de España. Comprueba siempre la señalización y la app oficial.</p>'+''.join(f'<h2>{t} ({sum(1 for c in _D["cities"] if c["confidence"]==k)})</h2><p class="note">{d}</p><ul class="cards">'+''.join(_city(c) for c in _D['cities'] if c['confidence']==k)+'</ul>' for k,t,d in _G)
+page('ciudades/','Ciudades y apps de aparcamiento oficiales | UniPark','Cobertura de UniPark en los 50 municipios más poblados de España: sistema de estacionamiento regulado, operador y apps de pago oficiales, con fuentes.',_body)
 
 page('privacidad/','Política de privacidad | UniPark España','Política de privacidad de UniPark: tus datos se quedan en tu dispositivo.','''
 <h1>Política de privacidad</h1><p>Última actualización: 26 de octubre de 2026.</p>
@@ -43,7 +50,7 @@ page('privacidad/','Política de privacidad | UniPark España','Política de pri
 
 page('soporte/','Soporte | UniPark España','Ayuda y contacto de UniPark España.','''
 <h1>Soporte</h1><p>Contacto: <strong>soporte@ejemplo.com</strong> (dirección provisional, pendiente de configurar).</p>
-<h2>Preguntas frecuentes</h2><h3>¿UniPark paga mi aparcamiento?</h3><p>No. El pago se hace en la web o app oficial del operador. UniPark solo te ayuda a organizarte.</p><h3>¿Los precios son reales?</h3><p>No. En la beta son datos de ejemplo.</p><h3>¿Si amplío en UniPark, se amplía en el operador?</h3><p>No. Debes ampliar también en el operador oficial.</p><h3>¿Cuánto cuesta?</h3><p>0,00 EUR de comisión en beta.</p>''')
+<h2>Preguntas frecuentes</h2><h3>¿UniPark paga mi aparcamiento?</h3><p>No. El pago se hace en la web o app oficial del operador. UniPark solo te ayuda a organizarte.</p><h3>¿Los precios son reales?</h3><p>Solo mostramos estimaciones basadas en tarifas oficiales verificadas. En el resto de ciudades enlazamos a las tarifas oficiales.</p><h3>¿Si amplío en UniPark, se amplía en el operador?</h3><p>No. Debes ampliar también en el operador oficial.</p><h3>¿Cuánto cuesta?</h3><p>0,00 EUR de comisión en beta.</p>''')
 
 page('blog/','Blog | UniPark España','Guías sobre aparcamiento regulado en España.','''
 <h1>Blog</h1><ul class="cards"><li><h3><a href="zona-ser-madrid/">Cómo funciona la zona SER en Madrid</a></h3><p>Colores de plaza, horarios y cómo pagar.</p></li><li><h3><a href="apps-pagar-parking-espana/">Apps para pagar el parking en España</a></h3><p>Qué opciones hay y en qué fijarte.</p></li></ul>''')

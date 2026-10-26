@@ -5,7 +5,7 @@ Sitio estático y app web (PWA) de UniPark España. Vanilla JS, sin backend: los
 - Web: https://richkngxxx.github.io/unipark/
 - App: https://richkngxxx.github.io/unipark/app/
 
-Zonas y precios son **datos de ejemplo**, no tarifas reales. UniPark no cobra ni valida aparcamientos y no está afiliada a Telpark ni a ningún ayuntamiento. Comisión en beta: 0,00 EUR.
+Cobertura real en `data/coverage_es.json` (50 municipios, verificada a fecha 2026-10, con fuente y nivel de confianza por ciudad). Solo se estiman precios con tarifa oficial verificada. UniPark no cobra ni valida aparcamientos y no está afiliada a Telpark ni a ningún ayuntamiento. Comisión en beta: 0,00 EUR.
 
 ## Estructura
 - `index.html`, `como-funciona/`, `ciudades/`, `privacidad/`, `soporte/`, `blog/` – generados con `python3 build.py`
