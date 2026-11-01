@@ -48,11 +48,11 @@ page('privacidad/','Política de privacidad | UniPark España','Política de pri
 <h2>Menores</h2><p>El servicio no está dirigido a menores de 14 años.</p>
 <h2>Contacto</h2><p>Ver <a href="../soporte/">Soporte</a>.</p>''')
 
-page('soporte/','Soporte | UniPark España','Ayuda y contacto de UniPark España.','''
+page('soporte/','Soporte | UniPark España','Ayuda y contacto de UniPark España: dudas sobre zonas de aparcamiento regulado, ciudades y la app.','''
 <h1>Soporte</h1><p>Contacto: <strong>soporte@ejemplo.com</strong> (dirección provisional, pendiente de configurar).</p>
 <h2>Preguntas frecuentes</h2><h3>¿UniPark paga mi aparcamiento?</h3><p>No. El pago se hace en la web o app oficial del operador. UniPark solo te ayuda a organizarte.</p><h3>¿Los precios son reales?</h3><p>Solo mostramos estimaciones basadas en tarifas oficiales verificadas. En el resto de ciudades enlazamos a las tarifas oficiales.</p><h3>¿Si amplío en UniPark, se amplía en el operador?</h3><p>No. Debes ampliar también en el operador oficial.</p><h3>¿Cuánto cuesta?</h3><p>0,00 EUR de comisión en beta.</p>''')
 
-page('blog/','Blog | UniPark España','Guías sobre aparcamiento regulado en España.','''
+page('blog/','Blog | UniPark España','Guías sobre aparcamiento regulado en España: zona azul, zona verde, ORA, OTA y apps para pagar el parking.','''
 <h1>Blog</h1><ul class="cards"><li><h3><a href="zona-ser-madrid/">Cómo funciona la zona SER en Madrid</a></h3><p>Colores de plaza, horarios y cómo pagar.</p></li><li><h3><a href="apps-pagar-parking-espana/">Apps para pagar el parking en España</a></h3><p>Qué opciones hay y en qué fijarte.</p></li><li><h3><a href="area-verde-azul-barcelona/">Área Verde y Área Azul en Barcelona</a></h3><p>Tipos de plaza AREA, la app smou y cómo pagar.</p></li><li><h3><a href="zona-azul-naranja-zaragoza/">Zona azul y naranja en Zaragoza (ESRO y ESRE)</a></h3><p>Colores de zona, la app ApParca y cómo anular una denuncia.</p></li><li><h3><a href="ota-bilbao/">OTA de Bilbao: ámbitos y sectores</a></h3><p>Sector verde y azul, horarios para residentes y la app BilbaoPark.</p></li></ul>''')
 
 page('blog/zona-ser-madrid/','Cómo funciona la zona SER en Madrid | UniPark','Guía básica del Servicio de Estacionamiento Regulado (SER) de Madrid: plazas verdes y azules, horarios y formas de pago.','''
